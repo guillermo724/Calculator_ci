@@ -4,18 +4,18 @@ public class Calculator {
 
         //variables shared by all "calculator" objects
 
-       static float PI = 3.14f;
+        float PI = 3.14f;
 
 
-       static public void doNothing() {
+     public void doNothing() {
         }
 
-       static public int sum(int num1, int num2) {
+       public  int sum(int num1, int num2) {
             return num1 + num2;
 
         }
 
-       static public double sum(double num1, double num2) {
+        public double sum(double num1, double num2) {
             return num1 + num2;
         }
 
@@ -27,18 +27,25 @@ public class Calculator {
          */
 
 
-        static public float exponential(float base, int exponential) {
+        public  float exponential(float base, int exponential) {
+            float result = 1;
 
+            for (int i = 0; i < Math.abs(exponential); i++) {
+                result *= base;
+            }
 
-            static return base;
+            if (exponential < 0) {
+                return 1 / result;
+            }
+            return result;
         }
 
 
-         static public int square(int num) {
+          public int square(int num) {
             return num * num;
         }
 
-         static public int square(float num) {
+          public int square(float num) {
             return (int) (num * num);
         }
 
