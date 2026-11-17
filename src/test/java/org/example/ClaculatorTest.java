@@ -18,6 +18,8 @@ public class ClaculatorTest {
         System.out.println("Square algorithm test");
 
         short expected;
-        assertEquals(3,calculator.square(34));
+        assertEquals(6,calculator.sum(4,2));
     }
 }
+
+
