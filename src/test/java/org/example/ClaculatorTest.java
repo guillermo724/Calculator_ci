@@ -1,10 +1,10 @@
 package org.example;
 
-
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+public class ClaculatorTest{
 
 private Calculator calculator;
 
@@ -83,3 +83,4 @@ void exponentialBaseDecimal() {
     assertEquals(2.25f, calculator.exponential(1.5f, 2), 0.0001f);
 }
 
+}
