@@ -15,7 +15,7 @@ public class Calculator2 {
     static public void doNothing() {
     }
 
-    public static int sum(int num1, int num2) {
+    public static int sum(int num1) {
         return num1 + num2;
 
     }
