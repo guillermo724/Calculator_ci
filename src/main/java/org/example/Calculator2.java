@@ -16,6 +16,7 @@ public class Calculator2 {
     }
 
     public static int sum(int num1) {
+        int num2 = 1;
         return num1 + num2;
 
     }
